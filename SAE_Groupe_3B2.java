@@ -1,3 +1,4 @@
+//ancien code qui marche pas
 import java.util.Arrays;
 import java.util.Scanner;
 /**
