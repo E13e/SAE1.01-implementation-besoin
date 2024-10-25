@@ -4,12 +4,14 @@ import java.util.Arrays;
 
 
 /**
- * fonction main.
- *
- * @author (Gabriel (la partie disqualification -> Jérémy))
- *  les commentaires slash**slash sont fait par Gabriel
- *  les commentaires slash slash sont fait par Jérémy
- */
+* Sous fonction qui affiche les 3 meilleurs participants avec leurs temps
+*
+*      @param tabTempsParticipants[][] tableau en deux dimensions contenant le numéro de brassard des participants anisi que leurs temps
+*      @param nbCoureurs nombre de participants
+*      @return String contenant le podium avec les places des 3 meilleurs participants et leurs temps
+* 
+* @author (Jérémy)
+*/
 public class codePodium {
 
     public static String podium(int tabTempsParticipants[][], int nbCoureurs) {
