@@ -52,7 +52,7 @@ public class Podium {
 
         if (meilleursTemps[0][1] == 0 && meilleursTemps[0][2] == 0) {                              //verifie si 1 personne a reussi
             resultat = "1re place participant numéro : " + meilleursTemps[0][0] + "\n";            //affiche le numéro du premier participant
-            resultat += "Avec un temps de : " + meilleursTemps[1][0] + "s \n";                     //affiche le temps du premier participant
+            resultat += "Avec un temps de : " + meilleursTemps[1][0] + "ms \n";                     //affiche le temps du premier participant
             resultat += "Pas de 2eme participant, praticipants éliminés \n"; 
             resultat += "Pas de 3eme participant, praticipants éliminés"; 
             return resultat;
@@ -60,30 +60,30 @@ public class Podium {
 
         if (meilleursTemps[0][2] == 0) {                                                           //verifie si 2 personne ont reussi
             resultat = "1re place participant numéro : " + meilleursTemps[0][0] + "\n";            //affiche le numéro du premier participant
-            resultat += "Avec un temps de : " + meilleursTemps[1][0] + "s \n";                     //affiche le temps du premier participant
+            resultat += "Avec un temps de : " + meilleursTemps[1][0] + "ms \n";                     //affiche le temps du premier participant
             resultat += "2eme place participant numéro : " + meilleursTemps[0][1] + "\n";          //affiche le numéro du deuxième participant
-            resultat += "Avec un temps de : " + meilleursTemps[1][1] + "s \n";                     //affiche le temps du deuxième participant
+            resultat += "Avec un temps de : " + meilleursTemps[1][1] + "ms \n";                     //affiche le temps du deuxième participant
             resultat += "Pas de 3eme participant, praticipants éliminés";
             return resultat;
         }
 
         resultat = "1re place participant numéro : " + meilleursTemps[0][0] + "\n";            //affiche le numéro du premier participant
-        resultat += "Avec un temps de : " + meilleursTemps[1][0] + "s \n";                     //affiche le temps du premier participant
+        resultat += "Avec un temps de : " + meilleursTemps[1][0] + "ms \n";                     //affiche le temps du premier participant
 
         if (meilleursTemps[1][0] == meilleursTemps[1][1]) {                                    //verifie si les deux premiers temps du tableau meilleursTemps sont égaux
             resultat += "1re place participant numéro: " + meilleursTemps[0][1] + "\n";        //met le participant à la première place avec l'autre premier participant si ils ont le même temps
-            resultat += "Avec un temps de : " + meilleursTemps[1][1] + "s \n";                 //affiche le temps du premier participant
+            resultat += "Avec un temps de : " + meilleursTemps[1][1] + "ms \n";                 //affiche le temps du premier participant
         } else {
             resultat += "2eme place participant numéro : " + meilleursTemps[0][1] + "\n";      //affiche le numéro du deuxième participant
-            resultat += "Avec un temps de : " + meilleursTemps[1][1] + "s \n";                 //affiche le temps du deuxième participant
+            resultat += "Avec un temps de : " + meilleursTemps[1][1] + "ms \n";                 //affiche le temps du deuxième participant
         }
 
         if (meilleursTemps[1][1] == meilleursTemps[1][2]) {                                     //verifie si les deux derniers temps du tableau meilleursTemps sont égaux
             resultat += "2eme place participant numéro: " + meilleursTemps[0][2] + "\n";        //met le participant à la deuxième place avec l'autre deuxième participant si ils ont le même temps
-            resultat += "Avec un temps de : " + meilleursTemps[1][2] + "s \n";                  //affiche le temps du premier participant
+            resultat += "Avec un temps de : " + meilleursTemps[1][2] + "ms \n";                  //affiche le temps du premier participant
         } else {
             resultat += "3eme place participant numéro : " + meilleursTemps[0][2] + "\n";      //affiche le numéro du troisième participant
-            resultat += "Avec un temps de : " + meilleursTemps[1][2] + "s \n";                 //affiche le temps du troisième participant
+            resultat += "Avec un temps de : " + meilleursTemps[1][2] + "ms \n";                 //affiche le temps du troisième participant
         }
         
 
