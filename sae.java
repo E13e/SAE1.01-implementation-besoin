@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.util.Arrays;
-//code réécris entièrement par Jérémy en reprenant les sous fonctions de saisies de Dimitri
 
 
 /**
